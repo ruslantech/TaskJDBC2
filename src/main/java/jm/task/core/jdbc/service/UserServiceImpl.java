@@ -26,7 +26,6 @@ public class UserServiceImpl implements UserService {
     }
 
     public List<User> getAllUsers() throws SQLException {
-        userService.getAllUsers();
         List<User> userList = userService.getAllUsers();
         return userList;
 
